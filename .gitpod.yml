@@ -1,0 +1,6 @@
+tasks:
+  - before: |
+      npm i -g serve
+ports:
+  - port: 8088
+    onOpen: open-browser
